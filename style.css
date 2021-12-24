@@ -1,15 +1,12 @@
 .wrap{
     display: flex;
     justify-content: center;
-
     flex-direction: column;
     width: 600px;
     margin: 0 auto;
     background-color: #a2f1ea;
     border-radius: 25px;
     padding: 15px;
-
-
 }
 
 .logo{
@@ -23,24 +20,12 @@
     height: 100px;
 }
 
-/*.tasks-list{*/
-
-/*    font-family: 'Cormorant Garamond', serif;*/
-/*    font-family: 'Roboto', sans-serif;*/
-/*    font-size: 20px;*/
-
-
-/*}*/
-
 .listElement{
     background-color: white;
     border-radius: 15px;
     margin: 10px;
     padding: 5px;
     word-wrap: break-word;
-
-    /*Расширение элемента в случае если тектс вылезает за рамки*/
-
 }
 
 .done{
@@ -59,16 +44,10 @@ input{
 
 }
 
-
 .todo{
     display: flex;
     align-items: center;
-    /*max-width: 500px;*/
-    /*word-wrap: break-word;*/
     justify-content: space-between;
-
-
-
 }
 
 .todo:hover{
@@ -80,7 +59,6 @@ input{
     border-color: #88847f;
     background: white;
     border-radius: 1px;
-
     height: 25px;
     margin-right: 10px;
 }
